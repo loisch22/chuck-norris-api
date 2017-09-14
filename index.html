@@ -4,13 +4,23 @@
     <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script language="Javascript" type="text/javascript" src="script10.js"></script>
     <title>Chuck Norris Jokes</title>
   </head>
   <body>
+    <h1 class="header">Chuck Norris Jokes</h1>
     <div class="container">
-      <h1>Chuck Norris Jokes</h1>
-      <h2>Need a little humor to get through your day?</h2>
-      <button id="getJoke" type="button" class=>Chuck Norris Joke</button>
+      <h2 class="top-text">Need a little humor to get through your day?</h2>
+      <div class="buttons">
+        <button id="getJoke" type="button" class="btn btn-default">Tell me a Chuck Norris joke</button>
+        <button id="clear" type="button" class="btn btn-default">No more! I laughed enough</button>
+      </div>
+      <div class="image">
+        <img id="chuckImg" src="img/1.jpg" alt="Chuck Norris">
+      </div>
       <div class="errors"></div>
       <div class="showJokes"></div>
     </div>

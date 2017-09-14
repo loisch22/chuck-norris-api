@@ -1,0 +1,39 @@
+/*body {
+  background-image: url("../img/chuck-bg.jpg");
+  background-repeat: no-repeat;
+  background-size:
+}*/
+.header {
+  margin: 0;
+  padding: 1%;
+  color: #3e1c00;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 10px;
+  background-color: #a48544;
+}
+.image {
+  display: none;
+  text-align: center;
+  margin: 6% 6% 2% 6%;
+}
+.chuck1 {
+    width: 30%;
+}
+.showJokes {
+  font-size: 20px;
+  margin-bottom: 5%;
+  padding: 30px;
+  text-align: center;
+}
+.buttons {
+  text-align: center;
+}
+#getJoke, #clear {
+  margin: 10px;
+  font-size: 16px;
+}
+.top-text {
+  text-align: center;
+  margin-bottom: 5%;
+}
